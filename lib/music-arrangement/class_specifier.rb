@@ -14,11 +14,14 @@ class ClassSpecifier
     hash_make args, ClassSpecifier::ARG_SPECS
   end
 
-  def to_class
+  def load_requirements
     @requirements.each do |req|
       req.load
     end
+  end
 
+  def to_class
+    load_requirements
     tokens = @qualified_name.split(/::/)
     
     module_names = tokens[0...-1]
