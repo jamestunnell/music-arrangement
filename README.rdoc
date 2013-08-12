@@ -1,0 +1,28 @@
+= music-arrangement
+
+* {Homepage}[https://github.com/jamestunnell/music-arrangement]
+* {Issues}[https://github.com/jamestunnell/music-arrangement/issues]
+* {Documentation}[http://rubydoc.info/gems/music-arrangement/frames]
+* {Email}[mailto:jamestunnell@lavabit.com]
+
+== Description
+
+Prepare a musical arrangement from a score, by assigning instruments to parts.
+
+== Features
+
+== Examples
+
+  require 'music-arrangement'
+
+== Requirements
+
+== Install
+
+  $ gem install music-arrangement
+
+== Copyright
+
+Copyright (c) 2012 James Tunnell
+
+See LICENSE.txt for details.
