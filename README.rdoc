@@ -7,7 +7,7 @@
 
 == Description
 
-Prepare a musical arrangement from a score, by assigning instruments to parts.
+Prepare a musical arrangement from a score by assigning instruments to parts.
 
 == Features
 

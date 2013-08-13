@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.version       = Music::Arrangement::VERSION
   gem.summary       = %q{Arrange music scores by assigning instruments to parts and such}
   gem.description   = <<DESCRIPTION
-Prepare a musical arrangement from a score, by assigning instruments to parts.
+Prepare a musical arrangement from a score by assigning instruments to parts.
 DESCRIPTION
   gem.license       = "MIT"
   gem.authors       = ["James Tunnell"]
