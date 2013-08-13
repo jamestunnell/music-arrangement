@@ -11,7 +11,7 @@ class InstrumentAssignment
   # hashed-arg specs (for hash-makeable idiom)
   ARG_SPECS = {
     :class_specifier => arg_spec(:reqd => true, :type => ClassSpecifier),
-    :initial_settings => arg_spec_array(:reqd => false, :type => [Preset, Setting])
+    :initial_settings => arg_spec_array(:reqd => false, :type => [String, Hash])
   }
   
   # A new instance of InstrumentConfig.
